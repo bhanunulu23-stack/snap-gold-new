@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="SNAP GOLD - Premium Gold Jewellery">
+
+    <title>SNAP GOLD | Luxury Jewellery</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= TOP BRAND BAR ================= -->
+
+    <header class="top-header">
+
+        <div class="brand-mark">S</div>
+
+        <div>
+            <h1>SNAP GOLD</h1>
+            <p>GOLD JEWELLERY</p>
+        </div>
+
+        <div class="header-line"></div>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <span class="hero-small">
+                    THE ART OF FINE JEWELLERY
+                </span>
+
+                <h2>
+                    Elegance<br>
+                    <em>In Every Detail</em>
+                </h2>
+
+                <div class="ornament-line">
+                    <span></span>
+                    ◆
+                    <span></span>
+                </div>
+
+                <p>
+                    Discover timeless gold jewellery
+                    crafted with elegance and precision.
+                </p>
+
+                <button
+                    onclick="goToCollection()">
+
+                    VIEW COLLECTION
+
+                </button>
+
+            </div>
+
+
+            <!-- HERO IMAGE -->
+
+            <div class="hero-photo">
+
+                <div class="photo-frame">
+
+                    <img
+                        src="https://images.pexels.com/photos/12865908/pexels-photo-12865908.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                        alt="Luxury Gold Jewellery">
+
+                </div>
+
+                <div class="photo-caption">
+                    TIMELESS • ELEGANT • GOLD
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= COLLECTION ================= -->
+
+        <section
+            class="collection"
+            id="collection">
+
+            <div class="collection-heading">
+
+                <span>
+                    DISCOVER
+                </span>
+
+                <h2>
+                    Our Collection
+                </h2>
+
+                <div class="heading-decoration">
+                    ◆
+                </div>
+
+                <p>
+                    Curated gold jewellery for every occasion
+                </p>
+
+            </div>
+
+
+            <!-- CATEGORY -->
+
+            <div class="categories">
+
+                <button
+                    class="category active"
+                    data-category="rings"
+                    onclick="showCategory('rings')">
+
+                    RINGS
+
+                </button>
+
+                <button
+                    class="category"
+                    data-category="earrings"
+                    onclick="showCategory('earrings')">
+
+                    EARRINGS
+
+                </button>
+
+                <button
+                    class="category"
+                    data-category="chains"
+                    onclick="showCategory('chains')">
+
+                    CHAINS
+
+                </button>
+
+                <button
+                    class="category"
+                    data-category="bangles"
+                    onclick="showCategory('bangles')">
+
+                    BANGLES
+
+                </button>
+
+                <button
+                    class="category"
+                    data-category="necklaces"
+                    onclick="showCategory('necklaces')">
+
+                    NECKLACES
+
+                </button>
+
+            </div>
+
+
+            <!-- PRODUCTS -->
+
+            <div
+                class="products"
+                id="products">
+
+            </div>
+
+
+            <button
+                id="loadMore"
+                class="load-more"
+                onclick="loadMore()">
+
+                LOAD MORE
+
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= IMAGE MODAL ================= -->
+
+    <div
+        class="modal"
+        id="imageModal">
+
+        <button
+            class="close"
+            onclick="closeImage()">
+
+            ×
+
+        </button>
+
+        <img
+            id="modalImage"
+            src=""
+            alt="SNAP GOLD Jewellery">
+
+    </div>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="footer-mark">
+            S
+        </div>
+
+        <h2>
+            SNAP GOLD
+        </h2>
+
+        <p>
+            We Manufacture All Kind of Gold Jewellery
+        </p>
+
+        <span>
+            Gold & Silver Coins • Beads Jewellery • Chains
+        </span>
+
+        <a
+            href="https://wa.me/919381443855"
+            target="_blank">
+
+            WHATSAPP ENQUIRY
+
+        </a>
+
+        <div class="footer-bottom">
+
+            © 2026 SNAP GOLD • ALL RIGHTS RESERVED
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
